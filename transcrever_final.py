@@ -195,7 +195,6 @@ class AppTranscricao(tk.Tk):
         else:
             # Se a thread terminou, reativa o botão
             self.btn_transcrever.config(state=tk.NORMAL)
-            
 
 if __name__ == "__main__":
     app = AppTranscricao()
